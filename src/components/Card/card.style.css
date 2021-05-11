@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.card-container {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+    padding-bottom: 0.8em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.1s;
+}
+
+.card-container:hover {
+    filter:brightness(1.02);
+    transform: translateY(-0.08em);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+}
+
+.poke-image {
+    width: 8.5em;
+    height: 8.5em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+}
+
+.poke-detail {
+    margin: 0 1em;
+}
+
+.poke-id{
+    margin: 0;
+    font-size: 0.75em;
+    color: grey;
+}
+
+.poke-name{
+    margin: 0.5em 0 0.3em 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.poke-types ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.poke-types ul li{
+    font-size: 0.7em;
+    padding: 0.1em 1em;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    width: 3.5em;
+    height: 1.2em;
+    text-align: center;
+}
+
+.poke-types ul li:first-child{
+    margin-right: 5%;
+}

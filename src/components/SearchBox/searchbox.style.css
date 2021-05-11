@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.searchbox {
+    margin: 0.5em 0 2em 0;
+}
+
+.search-input{
+    padding: 1em;
+    background-color: whitesmoke;
+    font-size: 0.8em;
+    border: 1.5px solid rgb(38, 63, 85);
+    border-radius: 0.5em;
+    font-family: Ubuntu
+}
